@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>@lodki_pnd — всё о лодках ПНД</title>
+  <meta name="description" content="Честные обзоры, советы и реальные тесты лодок ПНД. Подписывайтесь на @lodki_pnd!" />
+  <style>
+    /* Глобальные стили */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: #f8f9fa;
+      color: #212529;
+      line-height: 1.7;
+    }
+    .container {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 0 20px;
+    }
+    a {
+      text-decoration: none;
+      color: #0d6efd;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+
+    /* Шапка */
+    header {
+      background: linear-gradient(135deg, #0d6efd, #0b5ed7);
+      color: white;
+      padding: 60px 0;
+      text-align: center;
+      border-bottom: 3px solid #0a58ca;
+    }
+    header h1 {
+      font-size: 2.8rem;
+      margin-bottom: 15px;
+    }
+    header p {
+      font-size: 1.2rem;
+      opacity: 0.9;
+      max-width: 700px;
+      margin: 0 auto 30px;
+    }
+    .btn {
+      display: inline-block;
+      background: white;
+      color: #0d6efd;
+      padding: 14px 30px;
+      border-radius: 50px;
+      font-weight: bold;
+      font-size: 1.1rem;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+      transition: transform 0.3s, box-shadow 0.3s;
+    }
+    .btn:hover {
+      transform: translateY(-3px);
+      box-shadow: 0 6px 16px rgba(0,0,0,0.3);
+    }
+
+    /* Основной контент */
+    .section {
+      padding: 60px 0;
+    }
+    .section h2 {
+      text-align: center;
+      font-size: 2rem;
+      margin-bottom: 40px;
+      color: #1a1a1a;
+    }
+    .features {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+      justify-content: center;
+    }
+    .feature-card {
+      background: white;
+      border-radius: 12px;
+      box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+      padding: 30px;
+      width: 300px;
+      text-align: center;
+      transition: transform 0.3s;
+    }
+    .feature-card:hover {
+      transform: translateY(-10px);
+    }
+    .feature-card h3 {
+      color: #0d6efd;
+      margin: 15px 0;
+    }
+    .feature-icon {
+      font-size: 2.5rem;
+      color: #0d6efd;
+    }
+
+    /* Преимущества */
+    .advantages {
+      background: #e7f1ff;
+      border-radius: 15px;
+      padding: 30px;
+      max-width: 900px;
+      margin: 0 auto;
+      font-size: 1.1rem;
+    }
+    .advantages ul {
+      margin: 20px 0;
+      padding-left: 20px;
+    }
+    .advantages li {
+      margin: 10px 0;
+    }
+
+    /* Подвал */
+    footer {
+      text-align: center;
+      padding: 40px 0;
+      background: #212529;
+      color: #fff;
+      margin-top: 60px;
+    }
+    footer p {
+      opacity: 0.8;
+    }
+
+    /* Адаптив */
+    @media (max-width: 768px) {
+      header h1 {
+        font-size: 2.2rem;
+      }
+      .feature-card {
+        width: 100%;
+      }
+    }
+  </style>
+</head>
+<body>
+  <!-- Шапка -->
+  <header>
+    <div class="container">
+      <h1>🚤 @lodki_pnd</h1>
+      <p>Честные обзоры, советы и реальные тесты лодок ПНД</p>
+      <a href="https://t.me/lodki_pnd" class="btn" target="_blank">Подписаться в Telegram</a>
+    </div>
+  </header>
+
+  <!-- Основной контент -->
+  <div class="container">
+    <!-- Блок: Что такое ПНД -->
+    <section class="section">
+      <h2>Что такое лодка ПНД?</h2>
+      <div class="advantages">
+        <p>Лодки из <strong>полиэтилена низкого давления (ПНД)</strong> — это прочные, бесшовные, не требующие сложного ухода суда, идеально подходящие для рыбалки, охоты и отдыха на воде.</p>
+        <p>Изготавливаются методом ротационного формования — одна цельная конструкция без швов и слабых мест.</p>
+        <ul>
+          <li>✅ Не ржавеет</li>
+          <li>✅ Ударопрочная</li>
+          <li>✅ Лёгкая и мобильная</li>
+          <li>✅ Не требует покраски</li>
+          <li>✅ Служит 10–15 лет</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- Блок: Преимущества -->
+    <section class="section">
+      <h2>Почему выбирают ПНД?</h2>
+      <div class="features">
+        <div class="feature-card">
+          <div class="feature-icon">🛡️</div>
+          <h3>Живучесть</h3>
+          <p>Не боится камней, пней и мелководья. Помнётся — и восстановится.</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-icon">🧼</div>
+          <h3>Простота ухода</h3>
+          <p>Мыть — водой. Хранить — где угодно. Никакой консервации.</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-icon">🔇</div>
+          <h3>Тишина</h3>
+          <p>На ПНД тише, чем на алюминии. Рыба не пугается, вы — наслаждаетесь.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Блок: Призыв к действию -->
+    <section class="section" style="text-align: center;">
+      <h2>Хочешь больше?</h2>
+      <p>Присоединяйся к сообществу настоящих водников!</p>
+      <br>
+      <a href="https://t.me/lodki_pnd" class="btn" target="_blank">👉 Перейти в Telegram</a>
+    </section>
+  </div>
+
+  <!-- Подвал -->
+  <footer>
+    <div class="container">
+      <p>Сайт создан для канала <strong>@lodki_pnd</strong> | Информация для вдохновения и отдыха</p>
+      <p>Все права на контент — в Telegram-канале.</p>
+    </div>
+  </footer>
+</body>
+</html>
